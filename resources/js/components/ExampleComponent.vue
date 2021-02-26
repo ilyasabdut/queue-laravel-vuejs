@@ -14,7 +14,8 @@
                 <p class="card-text">{{ userq.problem }}</p>
               </div>
               <div class="card-footer">
-                <a id="update-button"
+                <a
+                  id="update-button"
                   v-bind:href="'api/update/' + userq.id"
                   class="btn btn-success"
                   >Finished</a
